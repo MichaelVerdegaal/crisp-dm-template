@@ -44,7 +44,7 @@ This is best left up to personal interpretation, but a good generic rule is to m
 function in `source` if:
 - You reuse a piece of code more than once
 - A piece of code is considerably lengthy, and detracts from the reading experience in docs
-- A piece of code is requires extra documentation/context to be properly understood
+- A piece of code requires extra documentation/context to be properly understood
 
 ### What if i need an extra file/folder?
 
