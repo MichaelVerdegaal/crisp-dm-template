@@ -58,12 +58,12 @@ experiment, as this makes it substantially harder to find the right information.
 
 ### Why Python specific?
 
-Python is by far the most popular language for data science purposes, which myriads of online sources could confirm. Due to the popularity and personal preferences the decision has been made to primarily tailor this template towards Python, however, just because this is the focus that doesn't mean you couldn't use the template in another language. In case you want to switch programming languages, take these steps:
+Python is by far the most popular language for data science purposes, which myriads of online sources could confirm. Due to the popularity and personal preferences the decision has been made to primarily tailor this template towards Python, however, just because this is the focus, that doesn't mean you can't use the template in another language. In case you want to switch programming languages, take these steps:
 
 1. Remove poetry related files (poetry.lock and pyproject.toml).
 2. Remove python files in `source`, and switch the file type to the desired language choice.
 3. Add the steps necessary to reproduce the project environment in your language of choice.
 4. Make sure to include any packages necessary to get the Jupyter Notebooks to run.
 
-In case your language somehow doesn't support Jupyter Notebooks ([which is pretty difficult ](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), then you'll have to do more manual labor. The notebooks are filled with markdown text, which you'll have to extract from the notebooks cells (text inside the `#%% md` blocks)to another suitable file format.
+In case your language somehow doesn't support Jupyter Notebooks ([which is pretty difficult)](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), then you'll have to do more manual labor. The notebooks are filled with markdown text, which you'll have to extract from the notebooks cells (text inside the `#%% md` blocks)to another suitable file format.
 
