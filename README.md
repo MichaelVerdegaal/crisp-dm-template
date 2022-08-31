@@ -62,8 +62,9 @@ Python is by far the most popular language for data science purposes, which myri
 
 1. Remove poetry related files (poetry.lock and pyproject.toml).
 2. Remove python files in `source`, and switch the file type to the desired language choice.
-3. Add the steps necessary to reproduce the project environment in your language of choice.
-4. Make sure to include any packages necessary to get the Jupyter Notebooks to run.
+3. Update the pre-commit packages (or remove it entirely)
+4. Add the steps necessary to reproduce the project environment in your language of choice.
+5. Make sure to include any packages necessary to get the Jupyter Notebooks to run.
 
 In case your language somehow doesn't support Jupyter Notebooks ([which is pretty difficult)](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), then you'll have to do more manual labor. The notebooks are filled with markdown text, which you'll have to extract from the notebooks cells (text inside the `#%% md` blocks)to another suitable file format.
 
