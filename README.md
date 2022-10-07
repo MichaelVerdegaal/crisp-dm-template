@@ -6,7 +6,7 @@ executing data science projects. Such processes are becoming more necessary the 
 data science experiments you run, as they are messy and highly iterative in nature, and 
 traditional software engineering workflows aren't always very practical to apply. 
 
-While [the theory of the workflow](https://www.the-modeling-agency.com/crisp-dm.pdf) 
+While [the theory of the workflow](http://www.statoo.com/CRISP-DM.pdf) 
 is described in wonderful detail, i found myself frustrated with the lack of practical examples 
 online. The best one i found was from a project of 
 [RyusukeKimura](https://github.com/RyusukeKimura/crisp-dm), but this is in Japanese, and so 
