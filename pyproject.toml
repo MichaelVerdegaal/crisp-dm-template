@@ -5,7 +5,7 @@ description = "A ready to use template for the CRISP-DM data science workflow"
 authors = ["Michael Verdegaal <michaelverdegaal@hotmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11"
+python = ">=3.11,<3.13"
 matplotlib = "^3.5.1"
 ipykernel = "5.1"
 jupyterlab = "^3.4.3"
