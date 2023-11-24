@@ -15,7 +15,8 @@ from neptune.ai.
 
 ## See also!
 
-[CRISPY](https://github.com/MichaelVerdegaal/crispy-workflow), a modified version of the template you're currently looking at, with changes made to improve rapid-fire experiments while staying with the quality-boundary. This version is more suitable for 
+[CRISPY](https://github.com/MichaelVerdegaal/crispy-workflow), a modified version of the template you're currently looking at, with changes made to improve the documentation writing speed 
+while staying within the expected quality-boundary. This version is more suitable for 
 small teams/researchers who prefer to work more iteratively.
 
 
