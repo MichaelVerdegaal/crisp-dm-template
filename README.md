@@ -13,6 +13,12 @@ online. The best one i found was from a project of
 [this article](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations) 
 from neptune.ai.
 
+## See also!
+
+[CRISPY](https://github.com/MichaelVerdegaal/crispy-workflow), a modified version of the template you're currently looking at, with changes made to improve rapid-fire experiments while staying with the quality-boundary. This version is more suitable for 
+small teams/researchers who prefer to work more iteratively.
+
+
 ## This repository
 
 This repository contains the following folders for you to use.
