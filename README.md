@@ -30,7 +30,6 @@ crisp-dm-template
     ---raw | datasets as you've orginally received them
     ---processed | datasets at the end of the data preparation stage
 ---docs | phased notebooks to write your CRISP-DM report in
----source | contains Python functions that are used to produce your report
 ```
 
 Using the template is simple.
@@ -38,23 +37,14 @@ Using the template is simple.
 1. Fork or clone the repository to create a new experiment
 2. Set up a new virtual environment, and install the packages with `poetry install`, courtesy of 
 the [poetry](https://python-poetry.org/) package manager.
-3. Follow the steps in `docs`, with assistance from the source material of CRISP-DM, optionally 
-writing code in `source` to help write your report.
+3. Follow the steps in `docs`, with assistance from the source material of CRISP-DM.
 
 ## Notes
-
-### What kind of functions should `source` contain?
-
-This is best left up to personal interpretation, but a good generic rule is to move code to a new 
-function in `source` if:
-- You reuse a piece of code more than once
-- A piece of code is considerably lengthy, and detracts from the reading experience in docs
-- A piece of code requires extra documentation/context to be properly understood
 
 ### What if i need an extra file/folder?
 
 An important consideration for this repository is that it's supposed to be flexible, it's a 
-template in the end. As such, if your specific experiment requires say, an extra file in `source` 
+template in the end. As such, if your specific experiment requires say, some extra files or folders 
 to stay organised, then don't feel afraid to do so. 
 
 **However**, it is important that these changes are made with consideration, for the sake of 
@@ -66,10 +56,9 @@ experiment, as this makes it substantially harder to find the right information.
 Python is by far the most popular language for data science purposes, which myriads of online sources could confirm. Due to the popularity and personal preferences the decision has been made to primarily tailor this template towards Python, however, just because this is the focus, that doesn't mean you can't use the template in another language. In case you want to switch programming languages, take these steps:
 
 1. Remove poetry related files (poetry.lock and pyproject.toml).
-2. Remove python files in `source`, and switch the file type to the desired language choice.
-3. Update the pre-commit packages (or remove it entirely)
-4. Add the steps necessary to reproduce the project environment in your language of choice.
-5. Make sure to include any packages necessary to get the Jupyter Notebooks to run.
+2. Remove any python files, and switch to the to the desired language choice.
+3. Add the steps necessary to reproduce the project environment in your language of choice.
+4. Make sure to include any packages necessary to get the Jupyter Notebooks to run.
 
-In case your language somehow doesn't support Jupyter Notebooks ([which is pretty difficult)](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), then you'll have to do more manual labor. The notebooks are filled with markdown text, which you'll have to extract from the notebooks cells (text inside the `#%% md` blocks)to another suitable file format.
+In case your language somehow doesn't support Jupyter Notebooks ([which is rare)](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels), then you'll have to do more manual labor. The notebooks are filled with markdown text, which you'll have to extract from the notebooks cells (text inside the `#%% md` blocks)to another suitable file format.
 
