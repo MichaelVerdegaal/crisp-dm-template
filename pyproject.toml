@@ -3,6 +3,7 @@ name = "CRISP-DM template"
 version = "1.0"
 description = "A ready to use template for the CRISP-DM data-science workflow"
 authors = ["Michael Verdegaal <michaelverdegaal@hotmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
