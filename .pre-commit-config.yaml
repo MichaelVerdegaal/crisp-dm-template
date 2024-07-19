@@ -1,9 +1,0 @@
-# See https://pre-commit.com for more information
-# See https://pre-commit.com/hooks.html for more hooks
-repos:
-  - repo: https://github.com/nbQA-dev/nbQA  # Jupyter notebook formatting
-    rev: 1.4.0
-    hooks:
-      - id: nbqa-black  # Code formatting
-        args: [ "--line-length=88" ]
-      - id: nbqa-isort # Import sorting
