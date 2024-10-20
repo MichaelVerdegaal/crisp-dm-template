@@ -16,13 +16,6 @@ up a template project myself, inspired by the code layout as proposed in
 [this article](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations)
 from neptune.ai.
 
-## See also!
-
-[CRISPY](https://github.com/MichaelVerdegaal/crispy-workflow), a modified version of the template
-you're currently looking at, with changes made to improve the documentation writing speed while
-staying within the expected quality-boundary. This version is more suitable for small
-teams/researchers who prefer to work more iteratively.
-
 ## This repository
 
 This repository contains the following folders for you to use.
@@ -31,7 +24,8 @@ This repository contains the following folders for you to use.
 crisp-dm-template
 ---data | datasets for your experiment
     ---raw | datasets as you've orginally received them
-    ---processed | datasets at the end of the data preparation stage
+    ---interim | datasets that are transformed, but not ready for modeling yet 
+    ---processed | datasets at the end of your data preparation, ready for modeling
 ---docs | phased notebooks to write your CRISP-DM report in
 ```
 

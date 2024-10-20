@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "CRISP-DM template"
-version = "1.0"
+version = "2.0"
 description = "A ready to use template for the CRISP-DM data-science workflow"
 authors = ["Michael Verdegaal <michaelverdegaal@hotmail.com>"]
 package-mode = false
