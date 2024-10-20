@@ -1,15 +1,15 @@
 [tool.poetry]
 name = "CRISP-DM template"
-version = "1.0"
+version = "2.0"
 description = "A ready to use template for the CRISP-DM data-science workflow"
 authors = ["Michael Verdegaal <michaelverdegaal@hotmail.com>"]
 package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-pandas = "^2.2.2"
-matplotlib = "^3.9.1"
-jupyter = "^1.0.0"
+pandas = "^2"
+matplotlib = "^3"
+jupyter = "^1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
