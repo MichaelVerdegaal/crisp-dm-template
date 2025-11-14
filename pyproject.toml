@@ -1,16 +1,16 @@
-[tool.poetry]
-name = "CRISP-DM template"
-version = "2.0"
+[project]
+name = "CRISP-DM-template"
+version = "3.0"
 description = "A ready to use template for the CRISP-DM data-science workflow"
 authors = ["Michael Verdegaal <michaelverdegaal@hotmail.com>"]
-package-mode = false
+readme = "README.md"
+requires-python = ">=3.13"
 
-[tool.poetry.dependencies]
-python = ">=3.11,<3.13"
-pandas = "^2"
-matplotlib = "^3"
-jupyter = "^1"
+dependencies = [
+    "jupyter>=1.*",
+    "matplotlib>=3.*",
+    "pandas>=2.*",
+]
 
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+package = false

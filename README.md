@@ -1,5 +1,4 @@
 # CRISP-DM Template
-
 This repository contains a cookie-cutter Python repository for use with the CRISP-DM workflow.
 CRISP-DM is a data science workflow, meaning that it describes a process specific for executing data
 science projects. Such processes are becoming more necessary the more data science experiments you
@@ -33,12 +32,14 @@ crisp-dm-template
 ---docs | phased notebooks to write your CRISP-DM report in
 ```
 
-Using the template is simple.
+Using the template is simple. We make use of [UV](https://docs.astral.sh/uv/getting-started/installation/) for dependency management. Install that first.
 
 1. Fork or clone the repository to create a new experiment
-2. Set up a new virtual environment, and install the packages with `poetry install`, courtesy of the
-   [poetry](https://python-poetry.org/) package manager.
-3. Follow the steps in `docs`, with assistance from the source material of CRISP-DM.
+2. Run the `uv venv` command in your terminal to create a new virtual environment
+3. Activate the virtual environment according to the instructions of your OS and Shell:
+   - Windows (bash): `source .venv\Scripts\activate.bat`
+4. Install the dependencies with `uv sync` command.
+5. Follow the steps in `docs`, with assistance from the source material of CRISP-DM.
 
 ## Notes
 
