@@ -17,7 +17,7 @@ Why use this template?
   document from fragments of code, results and text.
 - Best practices - This report was structured based on some common best practices. It's based on
   [this article from neptune.ai](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations),
-  and uses Poetry as the main package manager.
+  and uses UV as the main package manager.
 
 ## This repository
 
